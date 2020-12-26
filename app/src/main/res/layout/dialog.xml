@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="15dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="20sp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Patient Name"
+                android:inputType="text"
+                android:gravity="start"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Phone number"
+                android:gravity="start"
+                android:inputType="phone"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/Age"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Age"
+                android:inputType="numberDecimal"
+                android:gravity="start"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/Arrival_date"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Arrival date"
+                android:gravity="start"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/Disease"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Disease"
+                android:gravity="start"
+                android:padding="15dp"/>
+
+            <EditText
+                android:id="@+id/Medication"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:hint="Medication"
+                android:gravity="start"
+                android:padding="15dp"/>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/purple_200"
+                android:text="Submit"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
